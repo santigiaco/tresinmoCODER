@@ -1,0 +1,39 @@
+.btn-whatsapp {
+    display: block;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    position: fixed;
+    right: 25px;
+    bottom: 15px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+}
+
+.header{
+    text-align: center;
+}
+
+.header{
+    animation: typewriter 3s steps(44) 1s
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 50em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.three-columns {
+    margin: 10px;
+    width: 32%;
+    display: inline-block;
+    }
+
+.alquiler{
+    text-align:center;
+}
