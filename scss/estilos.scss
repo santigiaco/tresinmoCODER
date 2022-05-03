@@ -1,0 +1,13 @@
+$primary-color: white;
+$secondary-color: rgb(238, 185, 11);
+$terciary-color: gold;
+$font-color: #aaaa;
+
+body{
+    background-color: $primary-color ;
+    color: $font-color;
+}
+h2{
+    font-weight: bolder;
+    font-size: size(4);
+}
