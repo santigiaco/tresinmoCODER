@@ -42,3 +42,8 @@
     max-width: 500px;
     max-height: 250px;
 }
+
+.publicaciones{
+    margin: 20px;
+    text-decoration: underline;
+}
