@@ -16,20 +16,8 @@
     text-align: center;
 }
 
-.header{
-    animation: typewriter 3s steps(44) 1s
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 50em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
-
 .three-columns {
-    margin: 10px;
+    margin: 50px;
     width: 32%;
     display: inline-block;
     }
@@ -41,9 +29,35 @@
 .card-img-top{
     max-width: 500px;
     max-height: 250px;
+    object-fit: contain;
+}
+
+.imagencar{
+    height: 500px;
+    width: 500px;
+    object-fit:contain;
+}
+
+.card-notice{
+    margin: 20px;
+    object-fit:contain;
 }
 
 .publicaciones{
     margin: 20px;
     text-decoration: underline;
 }
+
+.publicacion-alquiler{
+    margin: 20px;
+}
+
+.card-almagro{
+    padding-inline-start: 5%;
+}
+
+.formulario{
+    margin: 15px;
+    padding: 15px;
+}
+
